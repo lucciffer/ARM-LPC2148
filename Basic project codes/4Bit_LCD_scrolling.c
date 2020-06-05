@@ -31,7 +31,7 @@ int main()
 
     while(1)
     {
-        LCD_ScrollMessage(0,"        Welcome to the world of ARM programming by Explore Embedded ");
+        LCD_ScrollMessage(0,"        Welcome to the world of ARM programming by TechhEngine ");
     }
     
     
