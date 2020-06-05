@@ -30,7 +30,7 @@ GNU GENERAL PUBLIC LICENSE:
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-Errors and omissions should be reported to codelibraries@exploreembedded.com
+Errors and omissions should be reported to techh.engine@gmail.com
 **************************************************************************************************/
 //#include "gpio.h"
 
