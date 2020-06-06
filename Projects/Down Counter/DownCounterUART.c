@@ -45,12 +45,12 @@ int main()
    int flag=0;
    int i; 
    int result; 		  //variable to store result of comparison
-    SystemInit();	   
-    PINSEL0=00;			  //selecting port 0
-    IODIR0 |= (0xf << 18);	 //selecting pins 18-21 by shifting operation
+   SystemInit();	   
+   PINSEL0=00;			  //selecting port 0
+   IODIR0 |= (0xf << 18);	 //selecting pins 18-21 by shifting operation
 	
    
-    UART0_Init(9600); 	  //set baud rate to 9600
+   UART0_Init(9600); 	  //set baud rate to 9600
 	
     while(1)
     {
@@ -71,24 +71,24 @@ int main()
 	}
 
 if(flag == 1)
-	{
+{
 	
 	for(i=15;i>=0;i--)	//down counter module
 		{
 			IOPIN0=(i << 18);
 			DELAY_us(35000);
 		}
-	}
+}
 else if(flag == 0)
 {
-for(i=0;i<100;i++)
-{
- 
-  IOPIN0=(0xff << 18);
-  DELAY_us(3500);
-  IOPIN0=0x00;
-  DELAY_us(3500);
-}
+	for(i=0;i<100;i++)
+	{
+
+	  IOPIN0=(0xff << 18);
+	  DELAY_us(3500);
+	  IOPIN0=0x00;
+	  DELAY_us(3500);
+	}
   
 }
     
