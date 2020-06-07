@@ -38,7 +38,7 @@ IN CASE OF ERRORS AND QUERIES, DROP YOUR MAIL AT: techh.engine@gmail.com
 
 int main() 
 {	    
-   char str[2]; 			//input string
+   char str[2];  //input string
    char msg[2]={"up"};	//ReF string
    int len = 0;
    int flag=0;
@@ -53,18 +53,18 @@ int main()
 	
     while(1)
     {
-        len = UART0_RxString(str);					   //reading string from UART
+        len = UART0_RxString(str);	 //reading string from UART
         UART0_Printf("Received String:%s   size=%2d\n\r",str,len);		  
         
 		result=strncmp(msg,str,2);	   //comparing strings
 		if(result==0)
 		{
-			flag=1;				//set flag 1 if strings are same
+			flag=1;		//set flag 1 if strings are same
 			break;
 		}
 		else
 		{
-			flag=0;				//set flag 0 if strings are not same
+			flag=0;	    //set flag 0 if strings are not same
 			break;
 		}
 	}
