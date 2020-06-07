@@ -20,7 +20,7 @@ and that both those copyright notices and this permission notice appear in suppo
 
 
 /***************************************************************************************************
-THIS PROGRAM DOWN COUNTS ON 4 LEDS, WHEN 'DOWN' STRING IS READ FROM UART(UART0 IN THIS CASE).
+THIS PROGRAM UP COUNTS ON 4 LEDS, WHEN 'UP' STRING IS READ FROM UART(UART0 IN THIS CASE).
 THIS PROGRAM WAS WRITTEN AND COMPILED IN KEIL4 SOFTWARE.
 Add library files i.e., 'systemInit.c, uart.c, delay.c, gpio.h' along with the main program file 
 (this file)to compile.
