@@ -56,7 +56,7 @@ int main()
         len = UART0_RxString(str);					   //reading string from UART
         UART0_Printf("Received String:%s   size=%2d\n\r",str,len);		  
         
-		result=strncmp(msg,str,4);	   //comparing strings
+		result=strncmp(msg,str,2);	   //comparing strings
 		if(result==0)
 		{
 			flag=1;				//set flag 1 if strings are same
