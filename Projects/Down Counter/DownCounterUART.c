@@ -4,7 +4,7 @@
  * File:   main.c
  * Version: 16.0
  * Author: TechhEngine
- * Description: This file contains the program to display messages on LCD in 8-bit mode. 
+
 
 This code has been developed and tested on boards.  
 We strongly believe that the library works on any of development boards for respective controllers. 
