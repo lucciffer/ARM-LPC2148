@@ -23,8 +23,9 @@ and that both those copyright notices and this permission notice appear in suppo
 /***************************************************************************************************
 THIS PROGRAM DOWN COUNTS ON 4 LEDS, WHEN 'DOWN' STRING IS READ FROM UART(UART0 IN THIS CASE).
 THIS PROGRAM WAS WRITTEN AND COMPILED IN KEIL4 SOFTWARE.
-Add library files i.e., 'systemInit.c, uart.c, delay.c, gpio.h' along with the main program file 
-(this file)to compile.
+Add library files i.e., 'systemInit.c, uart.c, delay.c, gpio.c' along with the main program file 
+(this file)to compile. And also make sure to add .h files for the respective .c files, in the folder
+where you save the project file.
 the above mentioned header files can be found in Library files folder from the GitHub repository
 https://github.com/lucciffer/ARM-LPC2148 
 THIS PROJECT IS TESTED AND VERIFIED ON SIMULATION TOOLS AND AS WELL AS BOARDS.
