@@ -7,4 +7,4 @@ To use a program, open/create a new Uvision project in Keil4 for ARM7 microcontr
 KINDLY READ ALL THE FILES AND DOCUMENTATIONS BEFORE USING ANY LIBRARY.
 
 ALL THE FILES/PROGRAMS ARE TESTED AND VERIFIED, 
-FOR ANY ERRORS REPORT TO techh.engine@gmail.com
+IF ANY ERRORS, REPORT TO techh.engine@gmail.com
